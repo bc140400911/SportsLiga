@@ -1,0 +1,134 @@
+#matchLink{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.boldtext{
+    font-size: 40px !important;
+}
+.player-pic-hight{
+    max-height: 240px !important;
+}
+.team-hight{
+    min-height: 165px !important;
+}
+.info-ai{
+    flex: 0 0 48.33333% !important;
+    max-width: 49% !important;
+}
+.league-bg-ai{
+    background-size: 100% 100% !important;
+}
+.image-ai{
+    display: block;
+    margin:0 auto;
+}
+.color-white-ai{
+    color:white !important;
+}
+#nav li {
+    float: left;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight:bold;
+}
+#nav li a{color:#333333;text-decoration:none}
+#nav li a:hover{color:#006699;text-decoration:none}
+#notification_li{position:relative}
+#notificationContainer {
+    background-color: #fff;
+    border: 1px solid rgba(100, 100, 100, .4);
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+    overflow: visible;
+    position: absolute;
+    top: 65px;
+    margin-left: -170px;
+    width: 400px;
+    z-index: -1;
+    display: none;
+    border-bottom: 3px solid #01d099;
+}
+#notificationContainer:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    color: transparent;
+    border: 10px solid black;
+    border-color: transparent transparent white;
+    margin-top: -20px;
+    margin-left: 188px;
+}
+#notificationTitle {
+    z-index: 1000;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 13px;
+    background-color: #ffffff;
+    width: 384px;
+    border-bottom: 1px solid #dddddd;
+}
+.notifications::-webkit-scrollbar {
+    width: 20px;
+}
+#notificationsBody {
+    padding: 33px 0px 0px 0px !important;
+    min-height:300px;
+    height: 300px !important;
+    overflow-y: scroll;
+}
+#notificationFooter {
+    background-color: #e9eaed;
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 12px;
+    border-top: 1px solid #dddddd;
+}
+#notification_count {
+    padding: 3px 7px 3px 7px;
+    background: #cc0000;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 77px;
+    border-radius: 9px;
+    position: absolute;
+    margin-top: -11px;
+    font-size: 11px;
+}
+.notification-box{
+    padding: 10px 0px;
+}
+.player-fav-ul .btn{
+    margin:0 auto !important;
+}
+.help-block{
+    color: red;
+}
+.user-profile{
+ color :red;
+}
+.user-profile-layout{
+    margin-bottom: 10px;
+    border:2px solid darkslategray ;
+
+
+
+}
+.user-profile-img{
+    background-color: cornflowerblue;
+}
+.edit-user-btn{
+    border: none;
+    cursor: pointer;
+}
+.social-btn-ai{
+    margin-top: 15px;
+}
+.notify-list{
+    cursor: pointer;
+}
+.mobile-menu li a{
+    color: #8e8e8e !important;
+}
